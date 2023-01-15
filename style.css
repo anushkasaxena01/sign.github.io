@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body {
+    margin: 30px;
+    font-family: 'Alata', sans-serif;
+    /* background: url('https://res.cloudinary.com/codier/image/upload/v1598867246/gthadoztifhhoplo7vnu.jpg'); */
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-form {
+    padding: 20px;
+    background: #ffffffd1;
+    border-radius: 10px;
+}
+
+#myDIV {
+    display: none;
+}
+
+.register-form {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffffd1;
+    border-radius: 10px;
+}
+
+input[type="submit"],
+button {
+    background: #6e0675 !important;
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+    cursor: pointer;
+}
